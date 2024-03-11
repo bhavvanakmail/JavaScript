@@ -1,0 +1,16 @@
+console.log("---------------------assignment 1----------------------");
+console.log("***question 1***");
+console.log("-------------------------------------------------------");
+var rollNo = 10113;
+console.log("RollNo : ",rollNo,"|","Data Type:",typeof rollNo);
+var myName= "Bhavana Mali";
+console.log("My Name Is : ",myName,"|","Data Type:",typeof myName);
+var exp = true;
+console.log("Are you fresher: ",exp,"|","Data Type:",typeof exp);
+console.log("-----------------------------------------------------------");
+console.log("**********question 2/Null vs undefined************");
+console.log("----------------------------------------------------------");
+var a = "undefined variable means value does not assign to variable";
+console.log("Undefined variable:-",a); 
+var b = "value is assigned but it set to be null";
+console.log("Null variable:-",b);

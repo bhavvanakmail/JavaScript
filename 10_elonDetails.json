@@ -1,0 +1,18 @@
+{
+    "name": "Elon Musk",
+    "age": 54,
+    "totalcompany": 9,
+    "companies": {
+        "tesla": {
+            "companyName": "Tesla",
+            "totalEmployee": 4500,
+            "location": "USA"
+        }
+    },
+    "kidsName": [
+        "Deny",
+        "Weny",
+        "Rony",
+        "Randy"
+    ]
+}

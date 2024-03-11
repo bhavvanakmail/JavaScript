@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Web Storage Demo</h2>
+    <h3>Local Storage</h3>
+    <h4>Storage</h4>
+</body>
+<script>
+    console.log("Local Storage");
+    window.localStorage.setItem("firstName","Sachin");
+    window.localStorage.setItem("lastName","Tendulkar");
+    window.localStorage.setItem("country","India");
+    window.localStorage.setItem("runs","35000");
+    console.log(window.localStorage.length);
+    console.log(window.localStorage.getItem("firstName"));
+    console.log(window.localStorage.getItem("country"));
+    console.log(window.localStorage.key("lastName"));
+    window.localStorage.removeItem("runs");
+    console.log("Local Storage");
+</script>
+
+<!-- <script>
+    console.log("Storage");
+    window.localStorage.setItem('name','Bhavana Kashinath Mali');
+    window.localStorage.setItem('city','Pune');
+    window.localStorage.setItem('pin',411033);
+    window.localStorage.setItem('district','pune');
+    const name = window.localStorage.getItem('name');
+    console.log(window.localStorage.length);
+console.log(window.localStorage.getItem("Name"));
+console.log(window.localStorage.getItem("pin"));
+console.log(window.localStorage.key("District"));
+
+window.storage.removeItem("City");
+console.log("Storage");
+</script> -->
+
+</html>
+

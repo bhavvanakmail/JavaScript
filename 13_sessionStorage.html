@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session Storage</title>
+</head>
+<body>
+    <h2>Session Storage</h2>
+    <script>
+        window.sessionStorage.setItem('city','pune');
+        window.sessionStorage.setItem('pin',411033);
+        window.sessionStorage.setItem('country','india');
+
+        const pin = window.sessionStorage.getItem('pin');
+        console.log(`pin`,pin);
+        const len = window.sessionStorage.length;
+        console.log(len);
+    </script>
+</body>
+</html>
